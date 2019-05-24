@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     changeTitle(){
-      this.$emit("titleChanged",'子组件向父组件传')
+      eventBus.$emit("titleChanged",'子组件向父组件传')
     }
   },
 }

@@ -6,6 +6,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// 新建一个eventBus 
+
+window.eventBus = new Vue()
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
