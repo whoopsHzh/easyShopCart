@@ -1,6 +1,6 @@
 # test
 
-> A Vue.js project
+> 用vuex写的一个简单购物车
 
 ## Build Setup
 
